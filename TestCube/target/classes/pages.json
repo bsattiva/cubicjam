@@ -1,0 +1,146 @@
+{
+  "google": {
+    "textSearch": {
+      "name": "google",
+      "selector": "input[name='q']",
+      "locator": "selector"
+
+    }
+
+  },
+  "searchResults": {
+    "listResults": {
+      "name": "listResults",
+      "selector": "div.g>div>div>a",
+      "locator": "selector"
+    },
+    "result": {
+      "name": "result",
+      "selector": "//a/h3[contains(text(),'?')]",
+      "locator": "xpath"
+    },
+    "resultLink": {
+      "name": "resultLink",
+      "selector": "//a/h3[contains(text(),'?')]/parent::*",
+      "locator": "xpath"
+    }
+
+
+
+  },
+  "login": {
+    "loginText": {
+      "name": "loginText",
+      "selector": "input[name='userName']",
+      "locator": "selector"
+    },
+    "passwordText": {
+      "name": "passwordText",
+      "selector": "input[name='password']",
+      "locator": "selector"
+    },
+    "submitButton": {
+      "name": "submitButton",
+      "selector": "button[type]",
+      "locator": "selector"
+    }
+  },
+  "bannerList": {
+    "newBanner": {
+      "name": "newBanner",
+      "selector": "new-banner-btn",
+      "locator": "id"
+    }
+  },
+  "selectBanner": {
+    "searchBanner": {
+      "name": "searchBanner",
+      "selector": "search-page-button",
+      "locator": "id"
+    }
+  },
+    "createBanner": {
+      "bannerName": {
+        "name": "bannerName",
+        "selector": "adbanner-name",
+        "locator": "id"
+      },
+      "supplierName": {
+        "name": "supplierName",
+        "selector": "supplier-name",
+        "locator": "id"
+      },
+      "searchTerms": {
+        "name": "searchTerms",
+        "selector": "searchTermsInput",
+        "locator": "id"
+      },
+      "startDate": {
+        "name": "startDate",
+        "selector": "start-date",
+        "locator": "id"
+      },
+      "endDate": {
+        "name": "endDate",
+        "selector": "end-date",
+        "locator": "id"
+      },
+      "storeToggle": {
+        "name": "storeToggle",
+        "selector": "adbanner-individual-stores-div__toggle",
+        "locator": "id"
+      },
+      "storeLink": {
+        "name": "storeLink",
+        "selector": "a[data-value='?']",
+        "locator": "selector"
+      },
+      "bannerToggle": {
+        "name": "bannerToggle",
+        "selector": "adbanner-retail-banner-div__toggle",
+        "locator": "id"
+      },
+      "bannerLink": {
+        "name": "bannerLink",
+        "selector": "a[data-value='?']",
+        "locator": "selector"
+      },
+      "linkTypeToggle": {
+        "name": "linkTypeToggle",
+        "selector": "adbanner-link-type-div__toggle",
+        "locator": "id"
+      },
+      "linkTypeLink": {
+        "name": "linkTypeLink",
+        "selector": "a[data-value='?']",
+        "locator": "selector"
+      },
+      "linkTypeText": {
+        "name": "linkTypeText",
+        "selector": "adbanner-link-url",
+        "locator": "id"
+      },
+      "uploadButton": {
+        "name": "uploadButton",
+        "selector": "upload-button-0",
+        "locator": "id"
+      },
+      "uploadInput": {
+        "name": "uploadInput",
+        "selector": "file-input-0",
+        "locator": "id",
+        "source": "C:/Users/Maxim.Karpov/IdeaProjects/osp-cmsx-ui-acceptance-tests/src/test/resources/images/Product_Tile.png"
+      },
+      "altText": {
+        "name": "altText",
+        "selector": "alt_text",
+        "locator": "id"
+      },
+      "createButton": {
+        "name": "createButton",
+        "selector": "create-ad",
+        "locator": "id"
+      }
+    }
+
+}
