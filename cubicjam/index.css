@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  
+}
+
+.preview-panel{
+  width: '400px';
+  height: '300px';
+  border: '1px solid darknavy';
+  border-radius: 3px;
+}
